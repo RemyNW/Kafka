@@ -5,7 +5,7 @@ Ce projet met en place un pipeline de données en utilisant **Apache Kafka** et 
 ## 📌 Fonctionnalités
 
 ✅ **Kafka Producer** : Récupère des transactions aléatoires d'une API et les envoie à Kafka sous forme de fichiers JSON.\
-✅ **Kafka Consumer** : LConsomme les messages Kafka et les stocke dans MinIO sous forme de fichiers JSON.\
+✅ **Kafka Consumer** : Consomme les messages Kafka et les stocke dans MinIO sous forme de fichiers JSON.\
 ✅ **Kafka Admin** : Permet de créer et supprimer des topics Kafka.\
 ✅ **MinIO** : Sert de stockage objet pour sauvegarder les fichiers JSON.
 
