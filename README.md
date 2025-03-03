@@ -67,11 +67,10 @@ Connecte-toi avec **minio / password** et vérifie que le fichier JSON est bien 
 ```
 📁 kafka_minio_project
 │-- 📜 docker-compose.yml       # Configuration Docker pour Kafka & MinIO
-│-- 📜 admin.py                 # Gestion des topics Kafka
 │-- 📜 producer.py              # Producteur Kafka (envoie les fichiers JSON)
 │-- 📜 consumer.py              # Consumer Kafka (stocke les fichiers dans MinIO)
+│-- 📜 meteo_data.ipynb         # Visualisation
 │-- 📜 README.md                # Documentation du projet
-│-- 📜 data.json                # Exemple de fichier JSON à envoyer
 ```
 
 ---
